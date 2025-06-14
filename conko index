@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Giffmaker Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      width: 100%;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    .banner {
+      width: 100%;
+      max-width: 960px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 0 40px rgba(255,255,255,0.1);
+      margin-bottom: 2rem;
+    }
+    .banner img {
+      width: 100%;
+      display: block;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 1rem;
+      max-width: 960px;
+      padding: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.05);
+    }
+    .buttons {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+    }
+    .buttons a {
+      text-decoration: none;
+      color: #fff;
+      background: #444;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .buttons a:hover {
+      background: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Giffmaker</h1>
+    <p>Custom animated GIFs for performers — fast, stylish, unique.</p>
+  </header>
+
+  <div class="banner">
+    <img src="Web_1920x1920.png" alt="GIF Preview Banner" />
+  </div>
+
+  <section class="gallery">
+    <!-- When ready: Replace below with real GIFs -->
+    <img src="https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif" alt="Sample GIF 1" />
+    <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="Sample GIF 2" />
+    <img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" alt="Sample GIF 3" />
+  </section>
+
+  <div class="buttons">
+    <a href="https://t.me/TheGiffmaker" target="_blank">📩 Order via Telegram</a>
+    <a href="#" title="Crypto payments coming soon...">💸 Crypto Coming Soon</a>
+  </div>
+</body>
+</html>
